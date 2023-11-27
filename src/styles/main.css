@@ -1,0 +1,194 @@
+* {
+    margin: auto;
+}
+
+.bgimg {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 20%, rgba(121, 9, 119, 1) 65%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.myname{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.75em;
+    color: white;
+    font-weight: 600;
+    line-height: 100px;  
+}
+.font{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2 ;
+    color: white;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+.navbar>a{
+   padding-left: 15px;
+   text-decoration: none;
+}
+
+.linked{
+  background-color: rgb(77, 146, 231);
+}
+
+.title{
+    border-width: 2px;
+    border-color: rgb(55, 53, 53);
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    width: 96%;
+    height: auto;
+    position: relative;
+}
+.intro{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem ;
+    color: white;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+.small-intro{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem ;
+    color: white;
+    font-weight: 600;
+    padding: 30px;
+    text-align:justify;
+    text-wrap: wrap;
+}
+h2.intro{
+    font-size: 3rem;
+}
+.image{
+    max-height: 520px;
+    max-width: 650px;
+}
+.my-intro{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem ;
+    color: rgb(174, 165, 174);
+    font-weight: bolder;
+    text-wrap: wrap;
+    /* text-align:left; */
+    width: 61%;
+    padding-top: 50px;
+    
+}
+.box{
+    border-color: transparent;
+    border-style: solid;
+    background-color: rgb(0, 0, 0,0.5);
+    width: 90%;
+    padding-bottom: 20px;
+
+}
+.edu{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2 ;
+    color: white;
+    font-weight: 600;
+    line-height: 50px;
+}
+.clg{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem ;
+    color: white;
+    font-weight: 600;
+}
+.course{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem ;
+    color: white;
+    font-weight: 600; 
+}
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: rgba(0,0,0,0.50);
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  
+  .title-black {
+    color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      flex-direction: column;
+    }
+  }
+.skills{
+    text-align: center;
+}
+
+.skill_intro{
+color: bisque;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+font-style: oblique;
+font-variant: normal;
+background-color: rgba(0,0,0,0.22);
+width: 96%;
+}
+.img_slider{
+    padding: 20px;
+    padding-left: 3.5%;
+    width: 87%;
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 30px;
+
+}
+
+@media all and (max-width: 500px) {
+    .image {
+        max-height: 320px;
+        max-width: 350px;
+    }
+    .navbar>a{
+        display: none;
+    }
+  }
